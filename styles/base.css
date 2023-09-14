@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	font-family: "Sansita", sans-serif;
 }
@@ -20,9 +19,49 @@ header {
 
 header,
 main {
-	max-width: 767px;
+     min-width: 767px;
 	margin: 0 auto;
 }
+html {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}
+.card1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    text-align: left;
+    width: 300px;
+    height: 200px;
+    background-color: #3498db; 
+    margin-right: 20px; 
+}
+  .card1 h3{
+    background-color: aqua;
+
+    }
+    .card2 h3{
+        background-color: #34db5e;
+    }
+
+
+.card2{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: right;
+    gap: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #e74c3c; 
+}
+
 
 h1 {
 	font-size: 2rem;
@@ -51,47 +90,53 @@ nav a:hover {
 .active {
 	color: yellow;
 }
-footer p{
-    font-size: 1.2em;
 
-}
-footer p a:hover{
-    text-decoration: underline;
-    background-color: rgb(61, 63, 63);
-    color: white;
-}
-footer a{
-    background-color: blue;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-footer a:hover{
+footer {
     background-color: seagreen;
+    position: relative;
     color: white;
-
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
 }
-footer{
-    margin-top: 200px;
-    padding: 25px 50px;
-    background-color: blue;
+footer a {
     color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
 }
-footer .social img{
-    padding-top: 15px;
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px lightblue;
+}
+#updated {
+    color: lightblue;
+    font-size: 12px;
+}
+#not-reasonable-size {
+    display: none;
+}
+.brk1 {
+    display: none;
+}
+.unBrk1 {
+    display: inline;
 }
 
-/* Larger Views ******************************/
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
+
+
+#scroll-down.up {
+    top: calc(100%);
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: seagreen;
+    border-radius: 5px;
 }
