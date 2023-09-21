@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 body{
-    background-color: rgb(19, 210, 169);
+    background-color: rgb(137, 137, 138);
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -16,7 +16,7 @@ body{
     
 }
 header{
-    background-color: rgb(169, 225, 14);
+    background-color: rgb(212, 22, 198);
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
@@ -37,11 +37,15 @@ nav a{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
     
 }
-
+.second-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 .home-title{
     padding-top: 15px;
     font-size: 2em;
@@ -195,12 +199,46 @@ main section img{
     margin: 0 auto;
     padding-top: 10px;
 }
-.desert-crad{
-    grid-column: 2/3;
-    grid-row: 1/2;
+.deli-crad{
+    grid-column: 1/2;
      
 }
+.chicken-card{
+    grid-column: 2/3;
+}
+.burger-card{
+    grid-column:3/4;
+}
 
+.combo-card{
+    grid-column: 4/5;
+    
+}
+.beef-card{
+    grid-column: 1/2; 
+}
+.fishing-card{  
+    grid-column: 2/3;
+}
+.droit-card{
+    grid-column: 3/4;
+}
+.macron-card{
+    grid-column: 4/5;
+
+    
+}
+.exquist-card{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+.foodes-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    
+}
 
 footer p{
     font-size: 1.2em;
@@ -236,7 +274,7 @@ footer p a:hover{
         font-size: 25px;
         color: #6f7364;
     }
-    .desert-card{ 
+    .deli-card, .chicken-card, .burger-card, .combo-card, .beef-card, .fishing-card, .droit-card, .macron-card, .exquist-card, .foodes-card{ 
         margin: 50px auto;
         width: 60%;
     }

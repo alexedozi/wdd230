@@ -3,59 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles/normalize.css">
     <title>[Alexander E. Onyekwere] - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development, [Alexander E. Onyekwere], course assignment portal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <meta name="author" content="[Alexander E. Onyekwere]">
-    <link rel="shortcut icon" href="favicon(1).ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon (1).ico">
+    <meta property="og:title" content="Basic Course Portal for WDD230 Assignments">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://usustatesman.com/wp-content/uploads/2017/02/smoginlogan-1-of-4.jpg">
+    <meta property="og:url" content="https://quiet-pirate.github.io/wdd230/">
+    <link rel="shortcut icon" href="/images/favicon (1).ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img src="images/myimage.jpg" width="200px" height="300px" alt="Alexander's">
+        <img src="images/myimage.jpg" width="200px" height="300px" alt="Alexander picture's">
         <h1>Alexander E. Onyekwere</h1>
     </header>
 
     <nav>
-        <ul>
+       <button id="menu"></button>
+        <ul class="navigation">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#3">Chamber</a></li>
+            <li><a href="#">Chamber</a></li>
             <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
+        <h2>WDD 230: Web Frontend Development  </h2>
         <section class="card1">
             <h3>Learning Activities</h3>
             <ul>
                 <li><a href="#">Week 01: Layout | Media Query | JS Pen</a></li>
-                <li><a href="#">Week 02:</a></li>
-                <li><a href="#">Week 03:</a></li>
-                <li><a href="#">Week 04:</a></li>
-                <li><a href="#">Week 05:</a></li>
-                <li><a href="#">Week 06:</a></li>
-                <li><a href="#">Week 07:</a></li>
+                <li>Week 02:<a href="week02/design.html">design Principles <a href="/week02/DOM_Manipulation/bom.html">DOM Manipulation</a></a></li>
+                <li>Week 03:<a href="#"></a></li>
+                <li>Week 04:<a href="#"></a></li>
+                <li>Week 05:<a href="#"></a></li>
+                <li>Week 06:<a href="#"></a></li>
+                <li>Week 07:<a href="#"></a></li>
             </ul>
         </section>
         <section class="card2">
             <h3>Information</h3>
             <ul>
                 <li><a href="#">Johannesburg, South Africa</a></li>
-                <li><a href="#"></a>76°F - Sunshine</li>
-                <li><a href="#"></a>Page Visits: 10</li>
+                <li><a href="#"></a>32°C - Sunshine</li>
+                <li><a href="#"></a>Page Visits: 3</li>
             </ul>
         </section>
         <div id="scroll-down" class="up">&#8595; Scroll Down &#8595;</div>
         </main>
         <footer>
-            &copy;<span id="year"></span> | Alexander E. Onyekwere <span class="brk1"></span><span class="unBrk1">|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
+            &copy;<span id="year"></span> |Alexander Edozie Onyekwere <span class="brk1"></span><span class="unBrk1">|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Course</a><br>
             <span id="updated"></span>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="scripts/getDates.js"></script>
+        <script src="scripts/hamburg.js"></script>
+        
     </body>
 </html>

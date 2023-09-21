@@ -9,7 +9,8 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: #326273;
+    color: #FEFAE0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -23,7 +24,7 @@ main {
 	margin: 0 auto;
 }
 html {
-    background-color: lightblue;
+    background-color: rgba(243, 248, 248, 0.911);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -39,7 +40,7 @@ html {
     text-align: left;
     width: 300px;
     height: 200px;
-    background-color: #3498db; 
+    background-color: white; 
     margin-right: 20px; 
 }
   .card1 h3{
@@ -47,7 +48,7 @@ html {
 
     }
     .card2 h3{
-        background-color: #34db5e;
+        background-color: #cbdfd0;
     }
 
 
@@ -59,7 +60,7 @@ html {
     gap: 20px;
     width: 200px;
     height: 100px;
-    background-color: #e74c3c; 
+    background-color: white; 
 }
 
 
@@ -68,7 +69,7 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #1d7874;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -92,9 +93,9 @@ nav a:hover {
 }
 
 footer {
-    background-color: seagreen;
+    background-color: #606c38;
     position: relative;
-    color: white;
+    color: #FEFAE0;
     padding: 0.75em;
     border-radius: 5px;
     text-align: center;
@@ -107,7 +108,7 @@ footer a {
 }
 footer a:hover {
     color: lightgreen;
-    text-shadow: 1px 1px 10px lightblue;
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
 }
 #updated {
     color: lightblue;
@@ -139,4 +140,57 @@ footer a:hover {
 ::-webkit-scrollbar-thumb {
     background-color: seagreen;
     border-radius: 5px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
 }
