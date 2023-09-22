@@ -301,7 +301,7 @@ footer p a:hover{
     background-color: rgb(61, 63, 63);
     color: white;
 }
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -345,4 +345,4 @@ footer p a:hover{
 #hero-img{
     width: 100%;
     height: 800px;
-}
+}*/
