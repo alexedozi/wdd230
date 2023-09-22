@@ -1,8 +1,8 @@
 /* Larger Views ******************************/
-@media (min-width: 640px) {
+@media (min-width: 640px) { 
 	nav ul {
 		display: flex;
-
+		flex-direction: row;
 	}
 	nav ul li {
 		flex: 1 1 100%;
@@ -24,6 +24,15 @@
 	}
 	.navigation li{
 		display: block;
+		flex-direction: row;
+		justify-content: space-between; 
+		align-items: center;
+	}
+	.navigation{
+		display: flex;
+		flex-direction: row; /* Change flex-direction to row */
+		justify-content: space-between; /* You can add other styling properties as needed */
+		align-items: center
 	}
 	
 	
