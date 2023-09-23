@@ -20,11 +20,16 @@ body {
 }
 
 header{
-    background-color: rgb(212, 22, 198);
+    background-color: #326273;
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
 }
+.header {
+    background-color: #007acc; /* Blue background color */
+    color: #ffffff; /* White text color */
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -169,7 +174,6 @@ h4{
     text-align: left;
     box-shadow: 5px 5px 10px gray;
 }
-
 footer a{
     background-color: blue;
     color: white;
