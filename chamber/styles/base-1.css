@@ -7,7 +7,6 @@
     margin: 0 auto;
 }
 body{
-    background-color: rgb(137, 137, 138);
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -15,6 +14,11 @@ body{
 
     
 }
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text color */
+}
+
 header{
     background-color: rgb(212, 22, 198);
     text-align: left;
@@ -24,6 +28,12 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center
 }
 nav a:hover{
     background-color:darkblue;
@@ -35,14 +45,14 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
-#menu::before {
-	content: "☰";
+*#menu::before {
+    content: "☰";
 }
 
 #menu.open::before {
-	content: "❎";
+    content: "❎";
 }
-
+*/
 .navigation {
 	display: flex;
 	flex-direction: column;
@@ -301,10 +311,13 @@ footer p a:hover{
     background-color: rgb(61, 63, 63);
     color: white;
 }
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     #hero, .home-grid {
         display: block;
         height: auto;
+    }
+    #menu {
+        display: block;
     }
     nav, footer {
         flex-direction: column;
@@ -345,4 +358,57 @@ footer p a:hover{
 #hero-img{
     width: 100%;
     height: 800px;
-}*/
+}
+/* Mobile Styles 
+@media (max-width: 768px) {
+    Header Styles 
+    header {
+         Mobile header styles here 
+    }
+
+     Navigation Styles 
+    .navigation {
+         Mobile navigation styles here 
+    }
+
+     Hamburger Button Styles 
+    #menu {
+         Mobile hamburger button styles here 
+    }
+
+     Hero Section Styles 
+    #hero {
+         Mobile hero section styles here 
+    }
+
+     Main Content Styles 
+    .home-grid {
+         Mobile home grid styles here 
+    }
+
+     Individual Card Styles 
+    .chicken-card,
+    .burger-card,
+    .combo-card,
+    .beef-card,
+    .fish-card,
+    .droit-card,
+    .macron-card,
+    .exquist-card,
+    .foodes-card,
+    .msg,
+    .card2 {
+         Mobile card styles here 
+    }
+
+     Footer Styles 
+    footer {
+         Mobile footer styles here 
+    }
+
+     Hide the hamburger menu on mobile 
+    #menu {
+        display: block;
+    }
+}
+*/

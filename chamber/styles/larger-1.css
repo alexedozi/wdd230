@@ -1,5 +1,5 @@
 /* Larger Views ******************************/
-@media (max-width: 900px) {
+@media (min-width: 769px) {
 	nav ul {
 		display: flex;
 
@@ -33,3 +33,51 @@
 	}
 	
 }
+/* Desktop Styles 
+@media (min-width: 769px) {
+    /* Header Styles 
+    header {
+        /* Desktop header styles here 
+    }
+
+    /* Navigation Styles 
+    .navigation {
+        /* Desktop navigation styles here 
+    }
+
+    /* Hamburger Button Styles (Hidden on Desktop) 
+    #menu {
+        display: none; /* Hide the hamburger button on desktop 
+    }
+
+    /* Hero Section Styles 
+    #hero {
+        /* Desktop hero section styles here 
+    }
+
+    /* Main Content Styles 
+    .home-grid {
+        /* Desktop home grid styles here 
+    }
+
+    /* Individual Card Styles 
+    .chicken-card,
+    .burger-card,
+    .combo-card,
+    .beef-card,
+    .fish-card,
+    .droit-card,
+    .macron-card,
+    .exquist-card,
+    .foodes-card,
+    .msg,
+    .card2 {
+        /* Desktop card styles here 
+    }
+
+    /* Footer Styles 
+    footer {
+        /* Desktop footer styles here 
+    }
+}
+*/
