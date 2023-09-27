@@ -24,24 +24,25 @@ header {
    /* height: 300px;*/
 }
 .hero img{
-    /*width: 100%;*/
-   /* height: 100%;*/
+    width: 70%;
+    height: 50%;
     object-fit: cover;
 }
 #info {
     padding: 2rem;
     border-style: solid;
     margin: 1rem;
+
 }
-.herolabel{
+.herowall{
     position: absolute;
-    bottom: 30px;
+    top: 30px;
     left: 10px;
     background: radial-gradient(#fff,rgb(12, 43, 66));
     border: 1px solid black;
     padding: 1.5rem;
 }
-.herolabel p{
+.herowall p{
     margin: 0;
     padding: .25rem;
     font-size: 1rem;
