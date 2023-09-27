@@ -5,6 +5,7 @@
 		flex-direction: row;
 	}
 	nav ul li {
+		display: block;
 		flex: 1 1 100%;
 
 		

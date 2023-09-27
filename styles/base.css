@@ -4,38 +4,36 @@
 	box-sizing: border-box;
 }
 body {
+    margin-left: 20%;
+    margin-right: 20%;
 	font-family: "Sansita", sans-serif;
 }
 
 /* mobile **************************/
 header {
-	background-color: #326273;
-    color: #FEFAE0;
+	background-color: #033958;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
-header img{
-    width: 150px;
-    height: auto;
-    box-shadow: black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero{
+.hero {
     margin: 10px auto;
     position: relative;
-    height: 300px;
+   /* height: 300px;*/
 }
 .hero img{
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+   /* height: 100%;*/
     object-fit: cover;
 }
-.herowall{
+#info {
+    padding: 2rem;
+    border-style: solid;
+    margin: 1rem;
+}
+.herolabel{
     position: absolute;
     bottom: 30px;
     left: 10px;
@@ -43,17 +41,37 @@ header img{
     border: 1px solid black;
     padding: 1.5rem;
 }
-.herowall p{
+.herolabel p{
     margin: 0;
     padding: .25rem;
     font-size: 1rem;
     font-weight: 600;
-    align-items: center;
 }
+main{
+    background-color: #FEFAE0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header,
 main {
-    /* min-width: 767px;*/
+     min-width: 767px;
 	margin: 0 auto;
 }
+main h2 {
+    text-align: left;
+    margin: 2rem;
+}
+header img{
+    width: 180px;
+    height: auto;
+    box-shadow: 0 0 30px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 html {
     background-color: rgba(243, 248, 248, 0.911);
     display: grid;
@@ -71,16 +89,16 @@ html {
     text-align: left;
     width: 300px;
     height: 200px;
-    background-color: white; 
+    background-color: #e9f863; 
     margin-right: 20px; 
 }
-  .card1 h3{
+.card1 h3{
     background-color: aqua;
 
-    }
-    .card2 h3{
+}
+.card2 h3{
         background-color: #cbdfd0;
-    }
+}
 
 
 .card2{ 
@@ -91,7 +109,7 @@ html {
     gap: 20px;
     width: 200px;
     height: 100px;
-    background-color: white; 
+    background-color: #dcf311; 
 }
 
 
@@ -100,7 +118,7 @@ h1 {
 }
 
 nav {
-	background-color: #1d7874;
+	background-color: #36454f;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -124,9 +142,9 @@ nav a:hover {
 }
 
 footer {
-    background-color: #606c38;
+    background-color: seagreen;
     position: relative;
-    color: #FEFAE0;
+    color: white;
     padding: 0.75em;
     border-radius: 5px;
     text-align: center;
