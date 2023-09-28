@@ -11,7 +11,7 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #033958;
+	background-color: #CFD2B2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -57,7 +57,7 @@ main{
 
 header,
 main {
-     min-width: 767px;
+   /*  max-width: 767px;*/
 	margin: 0 auto;
 }
 main h2 {
