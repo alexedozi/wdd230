@@ -13,11 +13,14 @@
         width: 100%;
         height: auto;
     }
-   
-	/*main{
-		display: grid;
-		grid-template-columns: 2fr 1fr ;
+	/*.card2{
+		grid-template-columns: 1fr 1fr;
+		grid-column: 2/3;
 	}*/
+   
+	main{
+		display: grid;
+	}
 
 	main h2 {
 		grid-column: 1 / span 2;
