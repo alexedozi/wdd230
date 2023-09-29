@@ -16,7 +16,7 @@ body{
 }
 body {
     background-color: #ffffff; /* White background */
-    color: #333333; /* Dark gray text color */
+    /*color: #333333; /* Dark gray text color */
 }
 
 header{
@@ -174,12 +174,12 @@ h4{
     text-align: left;
     box-shadow: 5px 5px 10px gray;
 }
-footer a{
+/*footer a{
     background-color: blue;
     color: white;
     text-align: center;
     text-decoration: none;
-}
+}*/
 footer a:hover{
     background-color: seagreen;
     color: white;
@@ -190,15 +190,15 @@ footer{
     padding: 25px 50px;
     background-color: blue;
     color: white;
-    display: flex;
+    /*display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;*/
 
     
 }
-footer .social img{
+/*footer .social img{
     padding-top: 15px;
-}
+}*/
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -314,6 +314,54 @@ footer p a:hover{
     text-decoration: underline;
     background-color: rgb(61, 63, 63);
     color: white;
+}
+
+#info {
+    padding: 2rem;
+    border-style: solid;
+    margin: 1rem;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+}
+#updated {
+    color: white;
+    font-size: 12px;
+}
+#not-reasonable-size {
+    display: none;
+}
+.brk1 {
+    display: none;
+}
+.unBrk1 {
+    display: inline;
+}
+
+
+
+#scroll-down.up {
+    top: calc(100%);
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: seagreen;
+    border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
     #hero, .home-grid {

@@ -13,10 +13,10 @@
         width: 100%;
         height: auto;
     }
-	/*.card2{
-		grid-template-columns: 1fr 1fr;
+	.card2{
+		grid-row: 1/2;
 		grid-column: 2/3;
-	}*/
+	}
    
 	main{
 		display: grid;
@@ -24,6 +24,7 @@
 
 	main h2 {
 		grid-column: 1 / span 2;
+		
 	}
 	#menu {
 		display: none; /* hide hamburger button */
