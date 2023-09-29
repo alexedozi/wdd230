@@ -41,8 +41,8 @@ nav {
     align-items: center
 }
 nav a:hover{
-    background-color:darkblue;
-    color: white;
+    background-color:#006400;
+    color: #FFFFFF;
 }
 nav a{
     color: rebeccapurple;
@@ -131,20 +131,20 @@ h4{
 .book, .OrderNow{
     margin-top: 50px;
     font-size: 18px;
-    background-color: rgb(220, 10, 80);
-    color:wheat;
+    background-color: #e67e22(Carrot Orenge);
+    color:#ffffff;
     text-align: center;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px; 
 }
 .book:hover{
-    background-color: blue;
-    color: whitesmoke;
+    background-color:#3498db;
+    color: #ffffff;
 }
 .join:hover{
-    background-color: red;
-    color: white;
+    background-color:#3498db ;
+    color: #ffffff;
     
 }
 .join, .Contact-Us{
@@ -155,8 +155,8 @@ h4{
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color: rgb(15, 8, 217);
-    color: white;
+    background-color:#3498db ;
+    color: #ffffff;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
@@ -182,14 +182,14 @@ h4{
 }*/
 footer a:hover{
     background-color: seagreen;
-    color: white;
+    color:#ffffff;
 
 }
 footer{
     margin-top: 200px;
     padding: 25px 50px;
-    background-color: blue;
-    color: white;
+    background-color: #006400;
+    color: #FFFFFF;
     /*display: flex;
     justify-content: space-around;
     align-items: center;*/
@@ -226,7 +226,7 @@ footer{
     margin-top: 100px;
 }
 #hero-msg h4 {
-    color: white;
+    color:#FFFFFF;
 }
 div,hero-img{
     width: 100%;
@@ -313,7 +313,7 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
     background-color: rgb(61, 63, 63);
-    color: white;
+    color: #FFFFFF;
 }
 
 #info {
@@ -324,7 +324,7 @@ footer p a:hover{
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     text-decoration: underline lightblue;
     transition: color 0.5s, text-shadow 0.5s;
 }
@@ -333,7 +333,7 @@ footer a:hover {
     text-shadow: 1px 1px 10px rgb(216, 219, 209);
 }
 #updated {
-    color: white;
+    color: #FFFFFF;
     font-size: 12px;
 }
 #not-reasonable-size {
@@ -360,7 +360,7 @@ footer a:hover {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: seagreen;
+    background-color:seagreen;
     border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
