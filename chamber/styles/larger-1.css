@@ -9,7 +9,7 @@
 
 		
 	}
-	.home-grid{
+	.container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -34,19 +34,19 @@
         width: 400px;
         height: 400px;
     }
-    #im1, #im2, #im3, #im4, #im5, #im6{
+    #cc1, #cc2, #cc3, #cc4, #cc5, #cc6{
         grid-column: 2/4;
 		animation: fade 15s;
 		
     }
 	
-	main{
+	/*main{
 		display: grid;
 		grid-template-columns: 2fr 1fr;
-	}
-	main h2{
+	}*/
+	/*main h2{
 		grid-column: 1 / span 2;
-	}
+	}*/
 
 	#menu {
 		display: none; /* hide hamburger button */
