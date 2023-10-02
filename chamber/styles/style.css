@@ -65,6 +65,69 @@ nav a{
 #menu.open::before {
     content: "❎";
 }
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
+}
+.show li{
+    display: block;
+}
+#menu.show::before{
+    content: "X";
+}
+nav ul{
+    list-style-type: none;
+}
+section ul{
+    list-style-type: none;
+}
+nav a {
+    display: block;  
+}
+nav a:hover{
+    border: 1px solid black;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+h1{
+    font-family: 'Trirong';
+    font-size: 30px;
+    background-color: #004E98;
+    color: white;
+}
+h2{
+    font-family: 'Trirong';
+    font-size:25px;
+    font-style: italic;
+    background-color: #004E98;
+    color: white;
+}
+h3{
+    font-family: 'Trirong';
+    font-size:25px;
+    font-style: italic;
+    background-color: #004E98;
+    color: white;
+}
+
 
 .navigation {
 	display: flex;

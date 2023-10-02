@@ -48,14 +48,14 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
-*#menu::before {
+#menu::before {
     content: "☰";
 }
 
 #menu.open::before {
     content: "❎";
 }
-*/
+
 .navigation {
 	display: flex;
 	flex-direction: column;
