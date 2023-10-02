@@ -440,6 +440,21 @@ footer{
     background-color: #3c0452;
     color: #FFFFFF;
 }
+
+/*.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns layout 
+    grid-gap: 20px; /* Adjust the gap between items as needed 
+    align-items: start; /* Align items at the start of the grid rows 
+    margin: 20px; /* Add some margin for better spacing 
+}
+
+.image-container {
+    grid-column: span 2;  Make the image container span across both columns 
+}
+
+ Add any additional styles as needed */
+
 @media screen and (max-width: 640px) {
     #hero, .home-grid {
         display: block;

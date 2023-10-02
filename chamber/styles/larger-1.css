@@ -11,9 +11,53 @@
 	}
 	.container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Two columns layout */
+		grid-gap: 20px; /* Adjust the gap between items as needed */
+		align-items: start; /* Align items at the start of the grid rows */
+		margin: 20px; /* Add some margin for better spacing */
+	}
+	
+	.image-container {
+		grid-column: span 2; /* Make the image container span across both columns */
+	}
+	
+	/* Add any additional styles as needed */
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Two equal columns */
+		grid-gap: 20px; /* Adjust the gap between columns */
+	}
+	
+	.container {
+		grid-column: span 2; /* Make the main container span both columns */
+	}
+	
+	/* Specify styles for the left column containing images */
+	.container picture {
+		margin-bottom: 20px; /* Adjust the spacing between images */
+	}
+	
+	/* Specify styles for the right column containing text content */
+	.container section {
+		background-color: #f9f9f9; /* Set background color for contrast */
+		padding: 20px;
+		border-radius: 10px;
+	}
+	
+	footer {
+		grid-column: span 2; /* Make the footer span both columns */
+		background-color: #333; /* Set background color for contrast */
+		color: #fff; /* Set text color for contrast */
+		text-align: center;
+		padding: 10px;
+	}
+	
+	
 	.event{
         grid-column: 2/3;
         grid-row: 2/3;
@@ -24,10 +68,10 @@
         grid-row: 3/4;
         margin: 20px;
     }
-	.content1{
+	/*.content1{
         grid-column: 1/2;
         margin: 20px;
-    }
+    }*/
 	.calendar{
         grid-column: 1/2;
         grid-row:2/3;
@@ -35,7 +79,7 @@
         height: 400px;
     }
     #cc1, #cc2, #cc3, #cc4, #cc5, #cc6{
-        grid-column: 2/4;
+       /* grid-column: 2/4;*/
 		animation: fade 15s;
 		
     }

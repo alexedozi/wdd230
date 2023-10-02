@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+    
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+.logo{
+    width: 80px;
+    text-align: left;
+    margin: 0 auto;
+}
+body {
+    background-color: #ffffff; 
+
+}
+
+header{
+    background-color:#007acc;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.header {
+    color: #ffffff
+    
+    ; /* White text color */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center
+}
+nav a:hover{
+    background-color:#006400;
+   
+}
+nav a{
+    color: rebeccapurple;
+    text-align: left;
+    text-decoration: none;
+    padding: 35px;
+}
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	
+	
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+    
+}
+.navigation li a:hover {
+	
+	
+	font-weight: 700;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: #f5f5f5;
+    
+    padding: 20px;
+}
+
+.container {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.event2,
+.content1 {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    grid-column: span 2;
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}
+
+.container {
+    grid-column: span 2;
+}
+
+
+.container picture {
+    margin-bottom: 20px; 
+}
+.container section {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    grid-column: span 2; 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+}
