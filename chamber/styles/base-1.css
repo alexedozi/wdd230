@@ -2,13 +2,6 @@
 * {
     box-sizing: border-box;
 }
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
 
 /*----------- HEADER --------------*/
 header {
@@ -18,6 +11,212 @@ header {
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
+/* styles/form.css */
+
+:root {
+    --primary-color: #3498db;
+    --background-color: #f9f9f9;
+    --form-width: 400px;
+    --form-padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+/* Color Contrast Improvements */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #0b188d;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ... (other CSS rules) ... */
+
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.mainb {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: var(--form-padding);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/*boddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+    
+.mainb {
+    max-width: 800px; /* Set a max-width for the mainb section */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: var(--form-width);
+    background-color: #fff;
+    padding: var(--form-padding);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.membership-benefits {
+    
+    text-align: left;
+    
+    
+}
+
+.navigation li{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: space-between; /* You can add other styling properties as needed */
+    align-items: center
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#menu{
+    display: block;
+    text-decoration: none;
+    color: rgb(180, 48, 48);
+}
+
+nav{
+    
+    font-size: 30px;
+   
+    color: #ffffff;
+}
+.logo{
+    width: 80px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.navigation a:hover, navigation a:active{
+    color: black;
+    background-color: #3498db;
+    
+}
+h1 {
+	font-size: 1.75rem;
+	color: navy;
+	border-bottom: 1px solid #bbb;
+}nav {
+	
+    color: #ffffff;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: rgb(25, 148, 25);
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+}
+footer {
+    background-color: #006400;
+    position: relative;
+    color: #ffffff;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
 
 
 body{
@@ -28,10 +227,6 @@ body{
 
     
 }
-body {
-    background-color: #ffffff; /* White background */
-    /*color: #333333; /* Dark gray text color */
-}
 
 header{
     
@@ -39,11 +234,7 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
 }
-.header {
-    
-    
-    color: #ffffff; /* White text color */
-}
+
 
 nav {
     display: flex;
@@ -280,7 +471,7 @@ main section img{
     margin: 0 auto;
     padding-top: 10px;
 }
-.deli-crad{
+.deli-card{
     grid-column: 1/2;
      
 }
@@ -381,6 +572,19 @@ footer a:hover {
 
 *{
     margin: 0;
+}
+.current-event{
+    width: 100%;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color:#3498db ;
+    color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    
 }
 
 
@@ -535,7 +739,19 @@ footer {
     padding: 10px;
 }
 
-@media screen and (max-width: 679px) {
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+ 
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -578,7 +794,7 @@ footer {
     footer {
         margin-top: 25px;
     }
-}
+
 #hero-img{
     width: 100%;
     height: 800px;
