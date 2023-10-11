@@ -11,6 +11,14 @@
     .navigation a{
         text-align: center;
     }
+    .navigation{
+        display: flex;
+        flex-direction: row; /* Change flex-direction to row */
+        justify-content: space-between; /* You can add other styling properties as needed */
+        align-items: center;
+     }
+
+
     #menu{
         display: none;
     }
