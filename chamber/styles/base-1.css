@@ -393,8 +393,15 @@ h4{
     color: #ffffff;
 }
 .join:hover{
-    background-color:#3498db ;
     color: #ffffff;
+    margin-top: 50px;
+    font-size: 18px;
+    background-color: #e67e22(Carrot Orenge);
+    color:#ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px; 
     
 }
 .join, .Contact-Us{

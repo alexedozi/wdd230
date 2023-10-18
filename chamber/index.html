@@ -15,11 +15,12 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="hidden" id="banner"><span>Come and join us for the chamber get together and braai  on saturday at 5:00 pm</span></div>
     <div id="datatable">
     <header>
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/xmage.jpg" alt="logo_link">
-        </a>
+         </a>
         <nav>
             <button id="menu"></button>
              <ul class="navigation">
@@ -31,20 +32,15 @@
              </ul>
          </nav>
     </header>
-    
-    
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/foto.jpg" alt="lady enjoying selling her product">
         </div>
-        <section id="hero-msg">
-            <h4>Keeping Up With New innovation</h4>
-            <div class='button-box'>
-                <a class='book' href="../chamber/join.html">Form</a>
-            </div>
+            <section class="join">
+                <h3>Join</h3>
+                <p><a href="join.html">Join the Chamber</a></p>
         </section>
     </div>
-    
     <main>
     <div class="home-grid">
       <section class="dali-card">
@@ -115,12 +111,15 @@ s
         <p>welcomed age range are 18-65, limited seat avaliable.</p>
     </section>
     <section class="card2">
-        <h3>Wealther</h3>
+        <h3>Current Weather</h3>
         <ul>
             <li><a href="#">Johannesburg, South Africa</a></li>
-            <li><a href="#"></a>32°C - Sunshine</li>
-            <p><span class="label">Number of Visits:</span><span class="visits"></span></p>
-        </ul>
+            <li>Condition: <span id="weather-condition"></span></li>
+            <li><img src="http://openweathermap.org/img/w/04n.png" alt="Weather Icon"></li>
+            <p>Temperature: <span id="current-temp"></span></p> 
+            <div id="forecast-container"></div>
+        </ul> 
+             
     </section>
     </div>
 
@@ -128,20 +127,20 @@ s
     
 </main>
  <footer>
+    <p><span class="label">Number of Visits:</span><span class="visits"></span></p>
     <p>&copy;<span id="year"></span> | Alexander E. Onyekwere | Guateng</p>
         <p id="lastModified"> Last Updated: <span id="currentDate"></span></p>
         <p> XMME Chamber of Commerce</p>
         <p>Johannesburg, CMD +27(0)</p>
         <p>11-921-5129</p>
 </footer>
-
-</div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/localStorage.js"></script>
     <script src="scripts/chamberDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/weathers.js"></script>
 </body>
 </html>
