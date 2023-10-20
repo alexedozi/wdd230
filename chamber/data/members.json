@@ -6,7 +6,7 @@
             "phoneNumber":"435-752-9252",
             "url":"https://angiesrest.com/",
             "image":"images/angies.png",
-            "level":"",
+            "level":"Gold",
             "other":""
         },
         {
@@ -15,7 +15,7 @@
             "phoneNumber":"435-753-6813",
             "url":"https://ksmmusic.com/",
             "image":"images/KSM_Music.jpg",
-            "level":"",
+            "level":"Bronze",
             "other":""
         },
         {
@@ -24,7 +24,7 @@
             "phoneNumber":"435-752-6300",
             "url":"https://bearnsonlaw.com/",
             "image":"images/bear",
-            "level":"",
+            "level":"Silver",
             "other":""
         },
         {
@@ -33,7 +33,7 @@
             "phoneNumber":"435-563-3707",
             "url":"https://www.alpinecleaning.com/",
             "image":"iamges/alpine.png",
-            "level":"",
+            "level":"Gold",
             "other":""
         },
         {
@@ -42,7 +42,7 @@
             "phoneNumber":"435-755-3239",
             "url":"https://logannature.org/",
             "image":"",
-            "level":"",
+            "level":"Bronze",
             "other":""
         },
         {
@@ -51,7 +51,7 @@
             "phoneNumber":"435-752-6405",
             "url":"https://www.cve.com/",
             "image":"images/cache-electric.png",
-            "level":"",
+            "level":"Gold",
             "other":""
         },
         {
