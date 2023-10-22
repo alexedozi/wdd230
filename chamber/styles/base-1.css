@@ -5,13 +5,13 @@
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #0b188d;
+    background-color: #035287;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 /* styles/form.css */
 :root {
-    --primary-color: #3498db;
+    --primary-color: #154E75;
     --background-color: #FFFFFF;
     --form-width: 400px;
     --form-padding: 20px;
@@ -29,7 +29,7 @@ body {
 }
 /* Header and Navigation Styles */
 header {
-    background-color:#0B188D ;
+    background-color:#0B188D;
     color: #FFFFFF;
     padding: 10px 20px;
     display: flex;
@@ -82,7 +82,7 @@ form {
     background-color: #FFFFFF;
     padding: var(--form-padding);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #0B188D;
 }
 form div {
     margin-bottom: 20px;
@@ -104,7 +104,7 @@ textarea {
     border-radius: 5px;
 }
 button[type="submit"] {
-    background-color: var(--primary-color);
+    background-color:#0B188D ;
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
@@ -113,7 +113,7 @@ button[type="submit"] {
     font-size: 16px;
 }
 button[type="submit"]:hover {
-    background-color:#174359 ;
+    background-color:#000000 ;
 }
 .membership-benefits {
     
@@ -147,8 +147,8 @@ section {
 	text-align: center;
 }
 .grid img {
-	border: 1px solid #fff;
-	box-shadow: 0 0 10px #333;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 0 10px #333333;
 }
 .grid section > * {
 	margin: 0.1rem;
@@ -177,13 +177,13 @@ section {
 #menu{
     display: block;
     text-decoration: none;
-    color: rgb(180, 48, 48);
+    color:#035287;
 }
 nav{
     
     font-size: 30px;
    
-    color: #ffffff;
+    color: #FFFFFF;
 }
 .logo{
     width: 80px;
@@ -192,13 +192,13 @@ nav{
 }
 
 .navigation a:hover, navigation a:active{
-    color: #000000;
-    background-color: #3498db;
+    color: #FFFFFF;
+    background-color:#0B188D ;
     
 }
 h1 {
 	font-size: 1.75rem;
-	color: navy;
+	color:#0B188D;
 	border-bottom: 1px solid #bbb;
 }nav {
 	
@@ -226,7 +226,7 @@ footer a:hover {
     text-shadow: 1px 1px 10px rgb(216, 219, 209);
 }
 footer {
-    background-color: #6B3D0F;
+    background-color: #0B188D;
     position: relative;
     color: #FFFFFF;
     padding: 0.75em;
@@ -294,7 +294,7 @@ nav a{
 }
 .navigation li a:hover {
 	
-	color: #333;
+	color: #da0808;
 	font-weight: 700;
 }
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
@@ -330,7 +330,7 @@ nav a{
 .home-title{
     padding-top: 15px;
     font-size: 2em;
-    background-color: #AE6113;
+    background-color: #77420D;
     color: #FFFFFF;
     font-family:'Rock Salt', Arial, sans-serif;
     text-align: center;
@@ -343,10 +343,9 @@ h4{
 
 }
 .join:hover{
-    color: #FFFFFF;
     margin-top: 50px;
     font-size: 18px;
-    background-color: #935410;
+    background-color: #77420D;
     color:#FFFFFF;
     text-align: center;
     text-decoration: none;
@@ -361,8 +360,8 @@ h4{
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color:#E5F2FA;
-    color: #525252;
+    background-color:#77420D;
+    color: #FFFFFF;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
@@ -380,8 +379,8 @@ h4{
     box-shadow: 5px 5px 10px gray;
 }
 footer a:hover{
-    background-color: seagreen;
-    color:#ffffff;
+    background-color: #77420D;
+    color:#FFFFFF;
 
 }
 footer{
@@ -494,7 +493,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
-    background-color: rgb(61, 63, 63);
+    background-color: #006400;
     color: #FFFFFF;
 }
 #info {
@@ -545,7 +544,7 @@ footer a:hover {
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color:#C2E0F4;
+    background-color:#FFFFFF;
     color: #0B13EF;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
@@ -568,7 +567,7 @@ nav{
     text-decoration: none;
 }
 .navigation a:hover, navigation a:active{
-    color: black;
+    color: rgb(226, 12, 12);
     
 }
 .show li{
@@ -587,23 +586,23 @@ nav a {
     display: block;  
 }
 nav a:hover{
-    border: 1px solid black;
+    border: 1px solid rgb(7, 240, 112);
 }
 .active{
-    background-color:#000000 ;
-    color:#EBEBEB ;
+    background-color: #0B13EF;
+    color:#FFFFFF;
 }
 h1{
     font-family: 'Trirong';
     font-size: 30px;
-    background-color: #004E98;
+    background-color: #0B13EF;
     color: #FFFFFF;
 }
 h2{
     font-family: 'Trirong';
     font-size:25px;
     font-style: italic;
-    background-color: #004E98;
+    background-color: #0B13EF;
     color: #FFFFFF;
 }
 h3{
@@ -621,7 +620,7 @@ h3{
 footer{
     font-family: 'Rubik';
     font-size: 20px;
-    background-color: #333333;
+    background-color: #4A4A4A;
     color: #FFFFFF;
 }
 .event2,
@@ -639,7 +638,7 @@ footer{
 
 footer {
     grid-column: span 2;
-    background-color: #333333; 
+    background-color:#4A4A4A ; 
     color: #FFFFFF; 
     text-align: center;
     padding: 10px;
@@ -665,7 +664,7 @@ footer {
 }
 
 footer {
-    background-color: #333333; 
+    background-color: #4A4A4A; 
     color: #FFFFFF; 
     text-align: center;
     padding: 10px;
