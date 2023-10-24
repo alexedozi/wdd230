@@ -36,6 +36,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.calendar-iframe {
+    border: solid 1px #777;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
 .hidden{
     display:none;
 }
