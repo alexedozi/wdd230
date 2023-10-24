@@ -78,12 +78,21 @@
         grid-row: 3/4;
         margin: 20px;
     }
-	.calendar{
+	/*.calendar{
         grid-column: 1/2;
         grid-row:2/3;
         width: 400px;
         height: 400px;
-    }
+	}*/
+	.calendar-iframe {
+		grid-column: 1/2;
+		grid-row: 2/3;
+		border: solid 1px #777;
+		width: 800px;
+		height: 600px;
+		overflow: hidden;
+	}
+	
     #cc1, #cc2, #cc3, #cc4, #cc5, #cc6{
 		animation: fade 15s;
 		
